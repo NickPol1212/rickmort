@@ -1,0 +1,98 @@
+.container {
+  margin: 0 auto;
+  max-width: 1100px;
+}
+.container-header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.nav_list {
+  display: flex;
+}
+.nav_item {
+  padding: 0 19px;
+}
+.Rick {
+  color: #000;
+  font-family: Mystery Quest;
+  font-size: 49px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+.Morty {
+  color: #000;
+  font-family: Mystery Quest;
+  font-size: 49px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+.nav_link {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+}
+.header {
+  background-image: url("../img/back.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.Rick_title {
+  color: #000;
+  font-family: Nosifer;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 150%; /* 72px */
+  letter-spacing: 4.8px;
+  text-align: center;
+}
+.Rick_watch {
+  color: #ff0606;
+  font-family: "Black Ops One";
+  font-size: 128px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 12.8px;
+  background-color: #f3c318;
+}
+.Rick_story {
+  background: url("../img/Rick button.jpg"), lightgray 50% / cover no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  font-size: 25px;
+  color: rgb(207, 127, 7);
+}
+.Rick_text {
+  color: #ea910b;
+  font-family: "Love Ya Like A Sister";
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: left;
+}
+.Rick_link {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  align-items: center;
+}
+.Rick_gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+}
+.Rick_gallery_img {
+  width: 100%;
+  object-fit: cover;
+  height:  100%;
+}
