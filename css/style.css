@@ -96,3 +96,26 @@
   object-fit: cover;
   height:  100%;
 }
+@media(max-width:870px){
+.Rick_watch {
+  font-size: 60px;
+}
+.Rick_text {
+margin-left: 20px;
+margin-right: 20px;
+}
+.Rick_gallery {
+  grid-template-columns: 1fr 1fr;
+}
+
+
+
+
+
+
+
+
+
+
+}
+
