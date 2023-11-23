@@ -54,7 +54,7 @@
 .Rick_watch {
   color: #ff0606;
   font-family: "Black Ops One";
-  font-size: 128px;
+  font-size: 80px;
   font-style: normal;
   font-weight: 400;
   line-height: 150%;
@@ -96,6 +96,67 @@
   object-fit: cover;
   height:  100%;
 }
+.burger_line{
+width: 50px;
+height: 10px;
+background-color: black;
+margin-bottom: 7px;
+box-shadow: 2px 2px 3px  rgb(236, 17, 17);
+}
+.burger {
+  display: none;
+}
+.whatsapp {
+  background: url("../img/telegram.webp"), lightgray 50% / cover no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 60px;
+  height:60px ;
+  border-radius: 50%;
+  font-size: 25px;
+
+}
+.telegram {
+  background: url("../img/instagram.png"), lightgray 50% / cover no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width:60px;
+  height: 60px;
+  border-radius: 50%;
+  font-size: 25px;
+  margin-left: 10px;
+}
+.instagram {
+  background: url("../img/whatsapp.webp"), lightgray 50% / cover no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  font-size: 25px;
+  margin-left: 10px;
+}
+.Rick_footer_text {
+ font-family: "Love Ya Like A Sister";
+text-align: center;
+margin-top: 20px;
+font-size: x-large;
+color: rgb(97, 217, 217);
+}
+.footer {
+  display: grid;
+  grid-template-columns:8fr 1fr  1fr 1fr 8fr
+}
+
+
+
+
+
+
+
 @media(max-width:870px){
 .Rick_watch {
   font-size: 60px;
@@ -107,15 +168,34 @@ margin-right: 20px;
 .Rick_gallery {
   grid-template-columns: 1fr 1fr;
 }
-
-
-
-
-
-
-
-
-
+}
+@media(max-width:460px) {
+.burger{
+  display: block;
+}
+.nav {
+  display: none;
+}
+.Morty {
+  font-size: 35px;
+}
+.Rick {
+font-size: 35px;
+}
+.Rick_title {
+  font-size: 35px;
+}
+.Rick_watch {
+  font-size: 35px;
+}
+.Rick_link {
+  grid-template-columns: 1fr;
 
 }
+.Rick_story {
+  display: block;
+  margin-left:auto ;
+  margin-right: auto;
 
+}
+}

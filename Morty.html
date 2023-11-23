@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://wsxzaq127.github.io/style.css">
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,800;1,900&family=Mystery+Quest&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nosifer&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Nosifer&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,800;1,900&family=Mystery+Quest&display=swap" rel="stylesheet">
+    <title>Morty</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container container-header">
+        <span class="burger">
+          <div class="burger_line"></div>
+          <div class="burger_line"></div>
+          <div class="burger_line"></div>
+        </span>
+        <h1 class="Rick">Rick</h1>
+        <nav class="nav">
+          <ul class="nav_list">
+            <li class="nav_item">
+              <a class="nav_link" href="#">Главное </a>
+            </li>
+            <li class="nav_item">
+              <a class="nav_link" href="#">Новости</a>
+            </li>
+            <li class="nav_item">
+              <a class="nav_link" href="#">Галлерея </a>
+            </li>
+            <li class="nav_item">
+              <a class="nav_link" href="#">Контакты </a>
+            </li>
+          </ul>
+        </nav>
+        <h1 class="Morty">Morty</h1>
+      </div>
+    </header>
+    <main>
+      <section class="section_Rick">
+        <div class="container">
+          <h2 class="Rick_title">Mmmmorty’s part</h2>
+          <a class="first_watch" href="https://rick-i-morty.online/">
+          <button class="Rick_watch">Watch the first series (not only)</button>
+          </a>
+          <div class="Rick_link">
+            <p class="Rick_text">
+            Morty Smith-is one of the main characters of the series.<br/>
+            He is Rick's grandson and is often forced to tag along on his various "misadventures".<br/>
+            Morty has short brown hair that is always neatly combed. Morty's head is shaped like a circle,<br/>
+            unlike other characters. Morty generally wears a yellow T-shirt, blue pants, and white shoes.<br/>
+            There is a pronounced stutter (even when he is calm), among other things,<br/>
+            Morty periodically speaks in a broken voice due to puberty.
+            </p>
+            <a class="Rick_dossier"
+              href="https://ru.wikipedia.org/wiki/%D0%9C%D0%BE%D1%80%D1%82%D0%B8_%D0%A1%D0%BC%D0%B8%D1%82"> 
+              <button class="Rick_story"><b>About Morty</b></button>
+            </a>
+          </div>
+          <ul class="Rick_gallery">
+      <li class="Rick_gallery_item 1">
+        <a href="img/gal1.jpg" class="lightzoom">
+          <img class="Rick_gallery_img" src="img/gal1.jpg" alt="Rickgal">
+        </a>
+      </li>
+      <li class="Rick_gallery_item 2">
+        <a href="img/gal2.webp" class="lightzoom">
+          <img class="Rick_gallery_img" src="img/gal2.webp" alt="Rickgal">
+        </a>
+      </li>
+      <li class="Rick_gallery_item 3">
+        <a href="img/gal3.webp" class="lightzoom">
+          <img class="Rick_gallery_img" src="img/gal3.webp" alt="Rickgal">
+        </a>
+      </li>
+      <li class="Rick_gallery_item 4">
+        <a href="img/gal4.webp" class="lightzoom">
+          <img class="Rick_gallery_img" src="img/gal4.webp" alt="Rickgal">
+        </a>
+      </li>
+      <li class="Rick_gallery_item 5">
+        <a href="img/gal5.webp" class="lightzoom">
+          <img class="Rick_gallery_img" src="img/gal5.webp" alt="Rickgal">
+        </a>
+      </li>
+      <li class="Rick_gallery_item 6">
+        <a href="img/gal6.webp" class="lightzoom">
+          <img class="Rick_gallery_img" src="img/gal6.webp" alt="Rickgal">
+        </a>
+      </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <script type="text/javascript" src="https://wsxzaq127.github.io/lightzoom.js"></script>
+    <script type="text/javascript">
+     ;( function( $ ) {
+
+$( '.lightzoom' ).lightzoom( {
+  speed:                 150077777770,   // скорость появления
+  imgPadding:            10,    // значение отступа у изображения
+  overlayOpacity:        '0.9', // прозрачность фона (от 0 до 1)
+  viewTitle:             false, // true, если надо показывать подпись к изобажению
+  isOverlayClickClosing: false, // true, если надо закрывать окно при клике по затемненной области
+  isWindowClickClosing:  true, // true, если надо закрывать окно при клике по любой области
+  isEscClosing:          false, // true, если надо закрывать окно при нажатии на кнопку Esc
+  boxClass:              '',    // позволяет задавать класс окну обертке (с версии 1.1.0)
+  overlayColor:          '',    // позволяет задавать цвет фону (с версии 1.1.0)
+  titleColor:            '',    // позволяет задавать цвет подписи (с версии 1.1.0)
+} );
+
+} )( jQuery );
+   </script>
+   <footer class="footer">
+    <a class="Rick_footer_text" href="">Write comments</a>
+  <a class="Rick_media link1" href=""><button class="Rick_media whatsapp">
+      
+    </button>
+    </a>
+   <a class="Rick_media link2" href=""><button class="Rick_media telegram"  >
+      
+   </button>
+   </a>
+   <a class="Rick_media link3" href=""><button class="Rick_media instagram">
+
+   </button>
+  </a>
+  <a class="Rick_footer_text" href="">Our projects</a>
+  </footer>
+  </body>
+</html>
